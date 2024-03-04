@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib
 
 # Load the dataset
-df = pd.read_csv('./data/injury_data.csv')
+df = pd.read_csv('./model/data/injury_data.csv')
 
 # Prepare the data
 X = df.drop('Likelihood_of_Injury', axis=1)
