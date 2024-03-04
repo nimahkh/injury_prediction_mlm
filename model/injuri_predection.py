@@ -53,10 +53,3 @@ def predict_injury_likelihood(player_info):
     injury_likelihood = 'High' if prediction == 1 else 'Low'
     
     return injury_likelihood
-
-# Example usage
-if __name__ == "__main__":
-    # Example player information
-    player_info = [24, 70, 180, 1, 0.5, 4]  # Example values for player information
-    prediction = predict_injury_likelihood(player_info)
-    print(f"Predicted Likelihood of Injury: {prediction}")
